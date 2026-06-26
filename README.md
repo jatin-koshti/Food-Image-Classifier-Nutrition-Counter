@@ -28,7 +28,7 @@ The **Food Image Classifier & Nutrition Counter** is a Machine Learning project 
 
 ---
 
-## 🧠 Machine Learning
+##  Machine Learning
 
 ### Feature Extraction
 
@@ -89,7 +89,7 @@ http://127.0.0.1:8000/
 
 ---
 
-## 🎯 Future Improvements
+##  Future Improvements
 
 * Deep Learning (CNN)
 * Mobile Application
