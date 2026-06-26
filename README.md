@@ -1,6 +1,6 @@
-# 🍽️ Food Image Classifier & Nutrition Counter
+# Food Image Classifier & Nutrition Counter
 
-## 📌 Overview
+##  Overview
 
 The **Food Image Classifier & Nutrition Counter** is a Machine Learning project  identifies food items from uploaded images and displays their estimated nutritional information, including calories, protein, carbohydrates, and fat.
 
