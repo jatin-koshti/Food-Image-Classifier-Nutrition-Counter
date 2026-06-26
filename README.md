@@ -75,17 +75,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run the application:
-
-```bash
-python manage.py runserver
-```
-
-Open your browser:
-
-```
-http://127.0.0.1:8000/
-```
 
 ---
 
