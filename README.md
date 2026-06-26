@@ -1,41 +1,103 @@
-# Food Image Classifier & Nutrition Counter
+# 🍽️ Food Image Classifier & Nutrition Counter
 
-## Overview
+## 📌 Overview
 
-This project classifies food images using Machine Learning and estimates nutritional information such as calories, protein, fat, and carbohydrates.
+The **Food Image Classifier & Nutrition Counter** is a Machine Learning project  identifies food items from uploaded images and displays their estimated nutritional information, including calories, protein, carbohydrates, and fat.
+
+---
 
 ## Features
 
-- Food image classification
-- Nutrition estimation
-- Image upload interface
-- Machine Learning model
+*  Upload a food image
+*  Food image classification using Machine Learning
+*  Nutrition information prediction
+*  Displays confidence score
+*  Fast image processing
 
-## Technologies
+---
 
-- Python
-- Scikit-learn
-- OpenCV
-- NumPy
-- Pandas
-- Pillow
+##  Technologies Used
+
+* Python
+* Scikit-learn
+* NumPy
+* Pandas
+* OpenCV
+* Pillow
+* Matplotlib
+
+---
+
+## 🧠 Machine Learning
+
+### Feature Extraction
+
+* Histogram of Oriented Gradients (HOG)
+* Local Binary Pattern (LBP)
+* HSV Color Histogram
+
+### Classifier
+
+* Multi-Layer Perceptron (MLP)
+
+---
 
 ## Dataset
 
-- 9,577 food images
-- 223 food categories
+The dataset is **not included** in this repository because it is too large for GitHub.
 
-## Machine Learning
+Download the dataset from Kaggle:
 
-Model: MLP Classifier
+https://www.kaggle.com/datasets/dansbecker/food-101
 
-Features:
-- HOG
-- LBP
-- HSV Histogram
+
+> **Note:** If you trained on a different or custom dataset, update this section to describe the correct dataset instead of Food-101.
+
+---
 
 ## Installation
 
-pip install -r requirements.txt
+Clone the repository:
 
+```bash
+git clone https://github.com/jatin-koshti/Food-Image-Classifier.git
+```
+
+Go to the project directory:
+
+```bash
+cd Food-Image-Classifier
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
 python manage.py runserver
+```
+
+Open your browser:
+
+```
+http://127.0.0.1:8000/
+```
+
+---
+
+## 🎯 Future Improvements
+
+* Deep Learning (CNN)
+* Mobile Application
+* Real-time Camera Prediction
+* Barcode Scanner
+* Multi-food Detection
+* Cloud Deployment
+* Nutrition Recommendation System
+
+---
+
